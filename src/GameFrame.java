@@ -132,7 +132,7 @@ public class GameFrame extends JFrame {
                     if (response == JOptionPane.YES_OPTION) {
                         gameLogic.resetGame();
                         feedbackLabel.setText("Enter a number between 1 and 100:");
-                        attemptsLabel.setText("Attempts left: 5");
+                        attemptsLabel.setText("Attempts left: 3");
                         guessField.setText("");
                     } else {
                         System.exit(0);
